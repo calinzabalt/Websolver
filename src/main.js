@@ -12,7 +12,6 @@ Vue.use(VueAnalytics, {
   router
 })
 Vue.use(Vuetify)
-Vue.config.productionTip = false
 
 const prod = process.env.NODE_ENV === 'production'
 const shouldSW = 'serviceWorker' in navigator && prod
@@ -27,8 +26,7 @@ else if (shouldSWDev) {
     console.log('Service Worker Registered!')
   })
 }
-
-Vue.config.devtools = true
+Vue.config.productionTip = false
 new Vue({
   router,
   store,
