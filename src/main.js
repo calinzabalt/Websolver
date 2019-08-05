@@ -27,6 +27,7 @@ else if (shouldSWDev) {
   })
 }
 Vue.config.productionTip = false
+
 new Vue({
   router,
   store,
