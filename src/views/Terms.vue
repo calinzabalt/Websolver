@@ -1,5 +1,5 @@
 <template>
-<v-container fluid style="margin: 0px; padding: 0px; width: 100%">
+<v-container>
  <div class="terms">
         <h1>Terms & Conditions</h1>
         <h2>Welcome to Websolver!</h2><br>
@@ -53,11 +53,15 @@
 <style scoped>
 .terms{
     background-color: #e9ebee;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
-.terms h1, h2, h3{
+.terms h1, h2, h3, p{
     color: black;
     text-align: left;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 p{
@@ -66,12 +70,5 @@ p{
   font-weight: 300;
   text-align: left;
 }
-
-.container {
-background-color: white
-}
-
-
-
 </style>
 

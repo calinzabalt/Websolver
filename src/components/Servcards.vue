@@ -53,7 +53,7 @@
     >
       <v-img
         :aspect-ratio="16/9"
-        src="/imagini/blog1.jpg"
+        src="/imagini/blog.png"
       >
         <v-expand-transition>
           <div
@@ -95,7 +95,7 @@
     >
       <v-img
         :aspect-ratio="16/9"
-        src="/imagini/real-estate1.jpg"
+        src="/imagini/real-estate1.png"
       >
         <v-expand-transition>
           <div

@@ -2,7 +2,7 @@
   <v-parallax
     dark
     height="700"
-    src="/imagini/intro1.jpg"
+    src="/imagini/intro1.png"
     alt="intro"
   >
     <v-layout
@@ -19,9 +19,10 @@
 
 <style scoped>
 h3, h4{
-    text-shadow: 3px 3px 8px black;
+    text-shadow: 2px 2px 8px black;
     font-family: "eurostile",sans-serif;
     line-height: 1.2;
+    color: white;
 }
 
 </style>

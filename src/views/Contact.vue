@@ -3,7 +3,7 @@
   <div class="contact">
       <v-parallax
     height="500"
-    src="/imagini/bulletin-board-3127287_1920.webp">
+    src="/imagini/make.png">
       </v-parallax>
       <div class="grid">
       <p class="subtitle">
