@@ -29,6 +29,20 @@
     "webpack-bundle-analyzer": "^3.3.2",
     "webpack-cli": "^3.3.6"
   },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "@vue/standard"
+    ],
+    "rules": {},
+    "parserOptions": {
+      "parser": "babel-eslint"
+    }
+  },
   "postcss": {
     "plugins": {
       "autoprefixer": {}
@@ -40,3 +54,4 @@
     "not ie <= 8"
   ]
 }
+
