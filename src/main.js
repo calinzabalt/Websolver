@@ -13,7 +13,21 @@ Vue.use(VueAnalytics, {
 })
 Vue.use(Vuetify)
 
-Vue.config.productionTip = false
+const prod = process.env.NODE_ENV === 'production'
+const shouldSW = 'serviceWorker' in navigator && prod
+const shouldSWDev = 'serviceWorker' in navigator && !prod
+if (shouldSW) {
+  navigator.serviceWorker.register('/service-worker.js').then(() => {
+    console.log("Service Worker Registered!")
+  })
+}
+else if (shouldSWDev) {
+  navigator.serviceWorker.register('/service-workder-dev.js').then(() => {
+    console.log('Service Worker Registered!')
+  })
+}
+
+Vue.config.devtools = true
 
 new Vue({
   router,
