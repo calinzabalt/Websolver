@@ -26,8 +26,7 @@ else if (shouldSWDev) {
     console.log('Service Worker Registered!')
   })
 }
-
-Vue.config.devtools = true
+Vue.config.productionTip = false
 
 new Vue({
   router,
