@@ -33,9 +33,9 @@ export default {
   },
   components: {
     LazyHydrate,
-    Parallax: () => import('../components/Parallax.vue'),
-    Jumbotron: () => import('../components/Jumbotron.vue'),
-    Cards: () => import('../components/Cards.vue'),
+    Parallax: () => import('@/components/Parallax.vue'),
+    Jumbotron: () => import('@/components/Jumbotron.vue'),
+    Cards: () => import('@/components/Cards.vue'),
   }
 }
 </script>

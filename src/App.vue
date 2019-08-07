@@ -22,8 +22,7 @@ export default {
   },
   components: {
     Toolbar,
-    Footer,
-    
+    Footer
   }
 }
 </script>

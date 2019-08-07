@@ -31,9 +31,9 @@ export default {
   },
   components: {
    LazyHydrate,
-    Carousel: () => import('../components/Carousel.vue'),
-    Table: () => import('../components/Table.vue'),
-    Servcards: () => import('../components/Servcards.vue'),
+    Carousel: () => import('@/components/Carousel.vue'),
+    Table: () => import('@/components/Table.vue'),
+    Servcards: () => import('@/components/Servcards.vue'),
   }
 }
 </script>
